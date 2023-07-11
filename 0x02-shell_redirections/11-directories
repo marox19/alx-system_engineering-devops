@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -not -path  -print0 | tr -dc '\0' | wc -c
+find . -mindepth 1 -type d | wc -l 
