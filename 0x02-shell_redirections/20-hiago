@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d 'c' 'C'
+echo "Hello World" | tr -cd [:alpha:] | tr -d cC
